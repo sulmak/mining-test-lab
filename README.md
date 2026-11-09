@@ -129,3 +129,7 @@ $CLI -rpcwallet=lab listunspent 1
 - **Break-even target:** regtest bits `207fffff` make essentially every hash a valid block, so block rate here says nothing about real mining.
 - **Scope:** regtest only — no real value, no peer networking, no vardiff, one client per pool process. Not a production pool.
 - Logs (`*.log`), the node datadir, and the Bitcoin Core binaries are gitignored.
+
+---
+
+Powered by **Md. Atikur Rahman Mridha** — [github.com/sulmak](https://github.com/sulmak)
