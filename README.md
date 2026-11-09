@@ -93,7 +93,7 @@ node pool.mjs     # terminal 1
 node miner.mjs 3  # terminal 2
 ```
 
-Shares are accepted, but `block=false` is expected because the fake template uses mainnet-style bits `1d00ffff` while the share target is easier.
+Shares are accepted, but no block is produced: the fake template uses mainnet-style bits `1d00ffff`, so a hash can clear the share target without clearing the block target (`chain height` stays unchanged).
 
 ## Verify
 
