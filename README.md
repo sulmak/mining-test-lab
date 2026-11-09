@@ -130,6 +130,12 @@ $CLI -rpcwallet=lab listunspent 1
 - **Scope:** regtest only — no real value, no peer networking, no vardiff, one client per pool process. Not a production pool.
 - Logs (`*.log`), the node datadir, and the Bitcoin Core binaries are gitignored.
 
+## Disclaimer
+
+This project is provided for **educational and research purposes only**. It runs exclusively on Bitcoin Core regtest and produces no real bitcoin and no monetary value.
+
+Nothing here is financial, investment, or legal advice. Cryptocurrency mining and trading are restricted or unsupported in some jurisdictions, including Bangladesh; verify the applicable law before applying any of this to a real network. The author accepts no liability for misuse or for any loss arising from use of this code.
+
 ---
 
 Powered by **Md. Atikur Rahman Mridha** — [github.com/sulmak](https://github.com/sulmak)
